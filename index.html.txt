@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viva o Samba</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f9d58, #f4b400, #db4437);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.5);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎶 Viva o Samba 🎶</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">História</a>
+      <a href="#">Artistas</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>O que é Samba?</h2>
+      <p>
+        O samba é um dos gêneros musicais mais importantes do Brasil,
+        com raízes africanas e forte presença cultural.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Instrumentos</h2>
+      <p>
+        Entre os principais instrumentos estão o pandeiro, cavaquinho,
+        surdo, tamborim e cuíca.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Energia e Alegria</h2>
+      <p>
+        O samba representa festa, união e alegria — especialmente no Carnaval!
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 - Site sobre Samba | Feito com ❤️</p>
+  </footer>
+
+</body>
+</html>
